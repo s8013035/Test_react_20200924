@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from './Article';
-import {Foo, Bar} from './components/FooBar';
+import Weather from './components/Weather'
 
 // class Blog extends React.Component {
 //   // eslint-disable-next-line
@@ -52,8 +52,7 @@ import {Foo, Bar} from './components/FooBar';
 
 //            count={this.state.count}
         />
-        <Foo />
-        <Bar />
+        <Weather />
 
         
       </>
